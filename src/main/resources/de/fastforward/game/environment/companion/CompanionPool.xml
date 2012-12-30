@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <feature>
+        <key>key2</key>
+        <label>label2</label>
+        <description>Beschreibung2</description>
+        <featureType>UNLOCK</featureType>
+        <scopeType>NATION</scopeType>
+    </feature>
+    <feature>
+        <key>key1</key>
+        <label>label1</label>
+        <description>Beschreibung1</description>
+        <featureType>MODIFICATION</featureType>
+        <scopeType>PLAYER</scopeType>
+    </feature>
+</root>

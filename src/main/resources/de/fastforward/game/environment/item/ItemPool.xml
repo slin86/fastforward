@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item>
+        <key>key2</key>
+        <title>label2</title>
+        <description>Beschreibung2</description>
+        <type>Shield</type>
+        <levels>
+        	<level key="levelKey1" level="1" countSlots="5" countSlotsToUpdate="3" cooldown="5000">
+        		<title></title>
+        		<description></description>
+        		<requirements>
+        			<feature featureKey="" factor="1" summe="0" />
+        			<feature featureKey="" factor="1" summe="0" />
+        			<feature featureKey="" />
+        		</requirements>
+        		<features>
+        			<feature featureKey="shield" factor="1" summe="5"  />
+        			<feature featureKey="" />
+        			<feature featureKey="" factor="1" summe="0" />
+        		</features>
+        		
+        		<costs bp="1" ne="0" fp="0">
+	        		<rc type="scrap" amount="15" />
+	        	</costs>
+        	</level>
+        	<level key="levelKey2" level="2" countSlots="5" countSlotsToUpdate="3">
+        		<title></title>
+        		<description></description>
+        		<requirements>
+        			<feature featureKey="" factor="1" summe="0" />
+        			<feature featureKey="" factor="1" summe="0" />
+        			<feature featureKey="" />
+        		</requirements>
+        		<features>
+        			<feature featureKey="" factor="1" summe="0" />
+        			<feature featureKey="" />
+        			<feature featureKey="" factor="1" summe="0" />
+        		</features>
+				<costs bp="1" ne="0" fp="0">
+					<rc type="scrap" amount="15" />
+				</costs>
+        	</level>        	
+        </levels>
+    </item>
+</root>
